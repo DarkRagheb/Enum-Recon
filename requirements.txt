@@ -1,0 +1,4 @@
+rich==13.9.4
+requests==2.32.3
+dnspython==2.7.0
+python-nmap==0.7.1
