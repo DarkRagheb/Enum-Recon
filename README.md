@@ -113,11 +113,11 @@ Provides:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/DarkRecon.git
+git clone https://github.com/DarkRagheb/Enum-Recon.git
 
-cd DarkRecon
+cd Enum-Recon
 
 pip install -r requirements.txt
 
-python3 darkrecon.py
+python3 Main.py
 
