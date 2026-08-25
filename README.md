@@ -3,7 +3,7 @@
 
 ## Advanced Security Reconnaissance Framework
 
-**DarkRecon** is a lightweight Python-based reconnaissance framework designed for security researchers, penetration testers, and system administrators.
+**Enum-Recon** is a lightweight Python-based reconnaissance framework designed for security researchers, penetration testers, and system administrators.
 
 The tool provides automated information gathering capabilities including:
 
