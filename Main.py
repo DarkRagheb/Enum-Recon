@@ -10,7 +10,6 @@ import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
-# إعداد مكتبة Rich المتقدمة لتنسيق الواجهة
 try:
     from rich.console import Console
     from rich.panel import Panel
@@ -90,7 +89,6 @@ def grab_banner(ip, port):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(1.5)
         
-        # دعم اتصالات التشفير SSL/TLS للبورتات الخاصة
         if port in [443, 8443, 465, 993, 995]:
             context = ssl.create_default_context()
             context.check_hostname = False
